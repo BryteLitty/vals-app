@@ -4,25 +4,22 @@ import LoveSong from '@/components/LoveSong';
 
 const Index = () => {
   return (
-    <div className='relative h-screen flex items-center justify-center'>
-      <LoveSong />
-      {/* Dark Overlay */}
-      <div className='absolute inset-0 bg-black opacity-60'></div>
+    <div className='relative h-screen'>
 
-      {/* Content */}
-      <div className='w-screen relative text-white text-center z-10'>
+      <div className='absolute inset-0 bg-black opacity-60'></div>
+      <LoveSong />
+      <div className="h-screen flex items-center justify-center">
+
+        <div className='w-screen relative text-white text-center z-10'>
 
         <h1 className='text-4xl mb-4 font-bold'>
           Will you be my Valentine?
         </h1>
 
-        
-
         <FancyResponse />
 
-        
+        </div>
       </div>
-
     </div>
   );
 };
