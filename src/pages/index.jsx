@@ -1,17 +1,24 @@
 import React from 'react';
+import FancyResponse from '@/components/FancyResponse';
+import LoveSong from '@/components/LoveSong';
 
 const Index = () => {
   return (
     <div className='relative h-screen flex items-center justify-center'>
-      
-
+      <div className="hidden">
+      <LoveSong />
+      </div>
       {/* Dark Overlay */}
-      <div className='absolute inset-0 bg-black opacity-50'></div>
+      <div className='absolute inset-0 bg-black opacity-60'></div>
 
       {/* Content */}
       <div className='w-screen relative text-white text-center z-10'>
 
-        <h1 className='text-4xl mb-4'>Will you be my Valentine?</h1>
+        <h1 className='text-4xl mb-4 font-bold'>
+          Will you be my Valentine?
+        </h1>
+
+        <FancyResponse />
 
         {/* <button className='bg-white text-pink-200'>
           Yes
