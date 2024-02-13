@@ -23,11 +23,11 @@ const Index = () => {
 
           <div className="font-bold flex flex-col gap-3 w-1/2 mx-auto">
             <Link href='/yep'>
-              <button className='bg-pink-600 rounded-2xl px-8 py-2'>Yes 🤍</button>
+              <button className='w-full bg-pink-600 rounded-2xl px-8 py-2'>Yes 🤍</button>
             </Link>
 
             <Link href='/Nay'>
-              <button className='bg-white text-red-600 rounded-2xl px-8 py-2'>Nope ❌</button>
+              <button className='w-full bg-white text-red-600 rounded-2xl px-8 py-2'>Nope ❌</button>
             </Link>
           </div>
 
