@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Index = () => {
   
-  const LoversName = 'Blessing'
+  const LoversName = 'My Love'
 
   return (
     <div className='relative h-screen'>
@@ -17,7 +17,7 @@ const Index = () => {
 
         <div className='w-screen relative text-white text-center z-10'>
 
-          <h1 className='text-4xl mb-4 font-bold'>
+          <h1 className='text-4xl mb-4 font-bold px-4'>
             Hey <span className='text-yellow-400'>{LoversName}</span>, will you be my Valentine?
           </h1>
 
