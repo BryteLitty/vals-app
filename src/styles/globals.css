@@ -19,8 +19,8 @@
 body {
   color: rgb(var(--foreground-rgb));
   /* background: url('/img/vals-bg.jpg');  */
-  background: url('/img/yaybg2.jpg'); 
-  /* background: url('/img/perfy1.jpg');  */
+  /* background: url('/img/yaybg2.jpg');  */
+  background: url('/img/perfy2.PNG'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
