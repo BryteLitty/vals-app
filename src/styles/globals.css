@@ -36,3 +36,17 @@ body {
     text-wrap: balance;
   }
 }
+
+.yay-container {
+  background: url('/img/yaybg2.jpg'); /* Updated path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #bb1b85;
+}
