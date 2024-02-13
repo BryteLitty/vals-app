@@ -12,11 +12,14 @@ const Index = () => {
 
         <div className='w-screen relative text-white text-center z-10'>
 
-        <h1 className='text-4xl mb-4 font-bold'>
-          Will you be my Valentine?
-        </h1>
+          <h1 className='text-4xl mb-4 font-bold'>
+            Will you be my Valentine?
+          </h1>
 
-        <FancyResponse />
+          <div className="font-bold flex flex-col gap-3 w-1/2 mx-auto">
+            <button className='bg-pink-600 rounded-2xl px-8 py-2'>Yes 🤍</button>
+            <button className='bg-white text-red-600 rounded-2xl px-8 py-2'>Nope ❌</button>
+          </div>
 
         </div>
       </div>
