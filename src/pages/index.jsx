@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Index = () => {
   
-  const LoversName = 'My Love'
+  const LoversName = 'love'
 
   return (
     <div className='relative h-screen'>
@@ -18,16 +18,17 @@ const Index = () => {
         <div className='w-screen relative text-white text-center z-10'>
 
           <h1 className='text-4xl mb-4 font-bold px-4'>
-            Hey <span className='text-yellow-400'>{LoversName}</span>, will you be my Valentine?
+            hey <span className='text-pink-400'>{LoversName}</span>! <br />
+            happy Val's day
           </h1>
 
           <div className="font-bold flex flex-col gap-3 w-1/2 mx-auto">
             <Link href='/yep'>
-              <button className='w-full bg-pink-600 rounded-2xl px-8 py-2'>Yes 🤍</button>
+              <button className='w-full mt-3 bg-pink-600 rounded-2xl px-4 py-3'>A surprise for you 🤍</button>
             </Link>
 
             <Link href='/Nay'>
-              <button className='w-full bg-white text-red-600 rounded-2xl px-8 py-2'>Nope ❌</button>
+              {/* <button className='w-full bg-white text-red-600 rounded-2xl px-8 py-2'>Nope ❌</button> */}
             </Link>
           </div>
 

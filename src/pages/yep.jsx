@@ -21,14 +21,14 @@ const Yep = () => {
           I love you my pretty queen 😘
         </h1>
 
-        <p className="text-yellow-300 text-md">
+        {/* <p className="text-yellow-300 text-md">
         In the dance of hearts, you're my sweet tune, <br />
         Underneath the stars, a love that'll never swoon. <br />
 
         Happy Valentine's Day, my heart's delight, <br />
         In your arms, everything feels just right. 
 
-        </p>
+        </p> */}
 
         {/* <div className='text-5xl'>
         😘
