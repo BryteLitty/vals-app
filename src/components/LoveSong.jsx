@@ -4,7 +4,7 @@ const LoveSong = () => {
   return (
     <div className='mt-12'>
       <audio controls autoPlay loop>
-        <source src="/songs/caluum_scothgit .mp3" type="audio/mp3" />
+        <source src="/songs/caluum_scoth.mp3" type="audio/mp3" />
         Your browser does not support the audio element.
       </audio>
     </div>
