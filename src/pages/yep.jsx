@@ -16,12 +16,12 @@ const Yep = () => {
     <div className="yay-container relative">
       <div className="absolute inset-0 bg-black opacity-40"></div>
 
-      <div className="flex flex-col items-center w-screen z-10">
-        <h1 className="font-bold text-pink-100 text-6xl mb-4">
+      <div className="flex flex-col items-center w-screen z-10 p-5 text-center">
+        <h1 className="font-bold text-pink-100 text-3xl mb-4">
           I love you my pretty Queen
         </h1>
 
-        <p className="text-pink-700 text-md">
+        <p className="text-yellow-300 text-md">
           I have a song for you... click this button to listen!
         </p>
 
@@ -30,7 +30,7 @@ const Yep = () => {
           width={100}
           height={0}
           alt='sksk'
-          className='w-200'
+          className='w-200 mb-0'
         />
 
         <button
