@@ -46,7 +46,7 @@ const Yep = () => {
           className="bg-white text-pink-600 font-black px-6 py-2 mt-4 rounded-full hover:bg-pink-600 hover:text-white focus:outline-none"
           onClick={playSong}
         >
-          {isPlaying ? 'Pause Song' : 'Unleash my love 💝'}
+          {isPlaying ? 'Pause Song' : 'ths for you 💝'}
         </button>
 
         {isPlaying && <LoveSong />}
