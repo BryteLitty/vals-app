@@ -20,6 +20,7 @@ body {
   color: rgb(var(--foreground-rgb));
   /* background: url('/img/vals-bg.jpg');  */
   background: url('/img/yaybg2.jpg'); 
+  /* background: url('/img/perfy1.jpg');  */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -40,7 +41,8 @@ body {
 
 .yay-container {
   /* background: url('/img/yaybg2.jpg');  */
-  background: url('/img/vals-bg.jpg');
+  background: url('/img/perfy1.jpg'); 
+  /* background: url('/img/vals-bg.jpg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
