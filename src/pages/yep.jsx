@@ -18,7 +18,7 @@ const Yep = () => {
 
       <div className="flex flex-col items-center w-screen z-10 p-5 text-center">
         <h1 className="font-black text-white text-3xl mb-4">
-          I love you my pretty Queen
+          I love you my pretty queen 😘
         </h1>
 
         <p className="text-yellow-300 text-md">
@@ -29,6 +29,10 @@ const Yep = () => {
         In your arms, everything feels just right. 
 
         </p>
+
+        {/* <div className='text-5xl'>
+        😘
+        </div> */}
 
         {/* <Image
           src={roseImg}
