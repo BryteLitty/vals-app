@@ -9,7 +9,7 @@ const Index = () => {
       <div className='absolute inset-0 bg-black opacity-50'></div>
 
       {/* Content */}
-      <div className='relative text-white text-center z-10'>
+      <div className='w-screen relative text-white text-center z-10'>
 
         <h1 className='text-4xl mb-4'>Will you be my Valentine?</h1>
 
