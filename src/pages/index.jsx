@@ -5,9 +5,7 @@ import LoveSong from '@/components/LoveSong';
 const Index = () => {
   return (
     <div className='relative h-screen flex items-center justify-center'>
-      <div className="hidden">
-      <LoveSong />
-      </div>
+      
       {/* Dark Overlay */}
       <div className='absolute inset-0 bg-black opacity-60'></div>
 
@@ -17,6 +15,10 @@ const Index = () => {
         <h1 className='text-4xl mb-4 font-bold'>
           Will you be my Valentine?
         </h1>
+
+        <div className="flex justify-between items-center">
+          <LoveSong />
+        </div>
 
         <FancyResponse />
 
