@@ -19,7 +19,7 @@ const Index = () => {
         >
           <h1 className='text-4xl mb-4 font-bold px-4'>
             hey <span className='text-pink-400'>{LoversName}</span>, <br />
-            happy Val's day
+            happy Val's day!
           </h1>
 
           <motion.div
